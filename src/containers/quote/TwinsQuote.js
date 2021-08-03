@@ -14,7 +14,7 @@ const TwinsQuote = () => {
 
   return (
     <>
-      <Quote quote={quote} />
+      <Quote fetchQuote={quote} />
       <Button button={handleClick} />
     </>
   );
