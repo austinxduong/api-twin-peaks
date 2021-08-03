@@ -5,6 +5,7 @@ import Button from '../../components/quote/Loads';
 
 const TwinsQuote = () => {
   const [quote, setQuote] = useState('Generate a Quote!');
+  // const [isLoading, setLoading] = useState(true)
 
   const handleClick = async () => {
     const res = await fetchApi();
